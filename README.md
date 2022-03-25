@@ -1,6 +1,40 @@
 # tower-defense
 
+## Knowledge
+### :fast_forward: Animations
+- Ataque de torretas.
+- ~~Movimiento de los enemigos.~~
+- ~~Baja de un enemigo.~~
+- ~~Construir una torreta.~~
+- ~~Lanzar/impactar un hechizo.~~
+### :factory: Prefabs
+- Enemigos
+- Torres
+- Balas
+### :clapper: Scenes
+- Menu princiapl
+- Mapa de niveles
+- Nivel 1..4
+### :cinema: Timelines
+- Animacion al perder.
+- Animacion al ganar.
+- ~~Animacion al empezar un nivel.~~
+- ~~Animacion al seleccionar un nivel.~~
+- ~~Animacion al spawnear el final boss.~~
+### :musical_keyboard: Audio
+- ~~Musica de fondo en las escenas.~~
+- ~~Sonido al morir un enemigo.~~
+- ~~Musica de victoria/derrota.~~
+### :collision: Particle system
+- ~~Particulas cuando un enemigo muere.~~
+- ~~Particulas cuando un enemigo recibe daño.~~
+- ~~Particulas al contruir/vender un edificio.~~
+- ~~Particulas cuando se lanza un hechio.~~
 
+
+## TODO List
+
+- [ ] Feature: Cambiar los diseños de enemigo y torretas.
 - [ ] Feature: Mostrar estadisticas al ganar/perder una partida.
 - [ ] Fix: Las animaciones de las torretas nunca terminan.
 - [ ] Feature: Guardar el avance del jugador.
