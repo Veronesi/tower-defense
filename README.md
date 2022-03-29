@@ -40,6 +40,7 @@
 - [ ] Feature: Guardar el avance del jugador.
 - [ ] Feature: Desbloquear nuevas torres a medida que se avanza en los niveles.
 - [ ] Fix: Si se pierde, el juego sigue continuando.
+- [ ] Fix: La torre sigue atacando aunque se haya ido de rango.
 
 ## Features v0.0.2 (26-04-2022 ~ ?)
 
