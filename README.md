@@ -26,8 +26,8 @@
 - ~~Sonido al morir un enemigo.~~
 - ~~Musica de victoria/derrota.~~
 ### :collision: Particle system
+- Particulas cuando un enemigo recibe daño.
 - ~~Particulas cuando un enemigo muere.~~
-- ~~Particulas cuando un enemigo recibe daño.~~
 - ~~Particulas al contruir/vender un edificio.~~
 - ~~Particulas cuando se lanza un hechio.~~
 
@@ -43,6 +43,8 @@
 - [ ] Fix: La torre sigue atacando aunque se haya ido de rango.
 
 ## Features v0.0.2 (26-04-2022 ~ ?)
+- [x] Feature: Particulas cuando un enemigo recibe daño.
+- [x] Feature: Efecto de movimiento al ataque de las torretas.
 
 ## Features v0.0.1 (07-03-2022 ~ 25-04-2022)
 
