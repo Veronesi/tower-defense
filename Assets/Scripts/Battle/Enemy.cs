@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     public bool isBoss = false;
     public Vector3 nextMesh;
     private SpriteRenderer spriteRenderer;
+    public GameObject impactParticles; 
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +48,7 @@ public class Enemy : MonoBehaviour
     public void Hurt(int damadge)
     {
         life -= damadge;
+        Instantiate(impactParticles, transform.position, Quaternion.identity);
         if( life <= 0)
         {
             Destroy(gameObject);

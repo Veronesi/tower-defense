@@ -100,7 +100,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.275
+  m_Radius: 0.1
 --- !u!50 &321976344866505676
 Rigidbody2D:
   serializedVersion: 4
@@ -140,3 +140,4 @@ MonoBehaviour:
   positionMesh: 0
   isBoss: 0
   nextMesh: {x: 0, y: 0, z: 0}
+  impactParticles: {fileID: 7563237076205518196, guid: 824eaeb2e02a14827bad3a76cd98ef91, type: 3}
