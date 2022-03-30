@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-  private void Update()
-  {
+    public static LevelManager instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+    private void Update()
+    {
     if (Input.GetMouseButtonDown(0))
     {
       Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -24,5 +29,22 @@ public class LevelManager : MonoBehaviour
 
       hit.collider.gameObject.GetComponent<SelectLevel>().SelectScene();
     }
-  }
+    }
+    private PlayerData _playerData;
+    public PlayerData playerData
+    {
+        get
+        {
+            if (_playerData == null)
+            {
+                _playerData = new PlayerData();
+                _playerData.SetStateLevel(1);
+            }
+            return _playerData;
+        }
+        set
+        {
+            _playerData = value;
+        }
+    }
 }

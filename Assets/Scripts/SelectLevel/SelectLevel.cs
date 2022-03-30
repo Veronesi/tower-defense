@@ -5,23 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class SelectLevel : MonoBehaviour
 {
-    public string sceneName;
+    public int sceneLevel;
     public bool canPlay;
     private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
+        canPlay = LevelManager.instance.playerData.GetStateLevel(sceneLevel);
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         if(!canPlay)
         {
             spriteRenderer.color = Color.black;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     public void SelectScene()
     {
@@ -29,6 +24,6 @@ public class SelectLevel : MonoBehaviour
         {
             return;
         }
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene($"Level1_{sceneLevel}");
     }
 }

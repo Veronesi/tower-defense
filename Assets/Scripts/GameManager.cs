@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
         ENEMIES_KILL,
         GET_MONEYS,
     }
+    public int level;
     public Transform[] navMesh;
     public static GameManager instance;
     [Header("Title Settings")]
@@ -52,7 +53,7 @@ public class GameManager : MonoBehaviour
             maxProbSpawnEnemy += EEnemy.dictionaryProb[enemy];
         }
         towerCount = 0;
-        textTower.text = $"0/{maxTowerCount.ToString()}";
+        textTower.text = $"0/{maxTowerCount}";
         SpawnEnemy();
         StartCoroutine(PasiveCoins());
     }
@@ -151,6 +152,7 @@ public class GameManager : MonoBehaviour
     public void Victory()
     {
         director.transform.Find("Victory").GetComponent<PlayableDirector>().Play();
+        playerData.SetStateLevel(level+1);
     }
 
     public void ReturnToWorlMap()
@@ -167,4 +169,21 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
     }
+    private PlayerData _playerData;
+    public PlayerData playerData
+    {
+        get
+        {
+            if (_playerData == null)
+            {
+                _playerData = new PlayerData();
+            }
+            return _playerData;
+        }
+        set
+        {
+            _playerData = value;
+        }
+    }
+    
 }

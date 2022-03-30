@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8642b3b1489c497fbdfc2c7e5282a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level1_3
+  sceneLevel: 3
   canPlay: 0
 --- !u!61 &40512297
 BoxCollider2D:
@@ -435,8 +435,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8642b3b1489c497fbdfc2c7e5282a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level1_2
-  canPlay: 1
+  sceneLevel: 2
+  canPlay: 0
 --- !u!1 &1155666704
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,8 +533,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8642b3b1489c497fbdfc2c7e5282a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level1_1
-  canPlay: 1
+  sceneLevel: 1
+  canPlay: 0
 --- !u!61 &1155666708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8642b3b1489c497fbdfc2c7e5282a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level1_4
+  sceneLevel: 4
   canPlay: 0
 --- !u!61 &1634088062
 BoxCollider2D:

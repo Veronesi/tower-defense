@@ -1042,6 +1042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68ea34fd88939465bbcc562af3607279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 2
   navMesh:
   - {fileID: 2120377902}
   - {fileID: 1205877300}
