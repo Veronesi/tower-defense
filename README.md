@@ -37,14 +37,15 @@
 - [ ] Feature: Cambiar los diseños de enemigo y torretas.
 - [ ] Feature: Mostrar estadisticas al ganar/perder una partida.
 - [ ] Fix: Las animaciones de las torretas nunca terminan.
-- [ ] Feature: Guardar el avance del jugador.
 - [ ] Feature: Desbloquear nuevas torres a medida que se avanza en los niveles.
 - [ ] Fix: Si se pierde, el juego sigue continuando.
 - [ ] Fix: La torre sigue atacando aunque se haya ido de rango.
 
 ## Features v0.0.2 (26-04-2022 ~ ?)
+- [x] Feature: ahora se desbloquean los niveles.
 - [x] Feature: Particulas cuando un enemigo recibe daño.
 - [x] Feature: Efecto de movimiento al ataque de las torretas.
+- [x] Feature: Guardar el avance del jugador.
 
 ## Features v0.0.1 (07-03-2022 ~ 25-04-2022)
 
