@@ -38,10 +38,10 @@
 - [ ] Feature: Mostrar estadisticas al ganar/perder una partida.
 - [ ] Fix: Las animaciones de las torretas nunca terminan.
 - [ ] Feature: Desbloquear nuevas torres a medida que se avanza en los niveles.
-- [ ] Fix: Si se pierde, el juego sigue continuando.
 - [ ] Fix: La torre sigue atacando aunque se haya ido de rango.
 
 ## Features v0.0.2 (26-04-2022 ~ ?)
+- [x] Fix: Si se pierde, el juego sigue continuando.
 - [x] Feature: ahora se desbloquean los niveles.
 - [x] Feature: Particulas cuando un enemigo recibe daño.
 - [x] Feature: Efecto de movimiento al ataque de las torretas.
